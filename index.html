@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="룰루레몬, 룰루레몬 온라인 스토어, 룰루레몬 온라인, 룰루레몬 공식, 요가, 필라테스, 러닝, 운동복, 캐주얼, 운동용품, 운동 액세서리, 기프트, 컬렉션, 온라인 단독">
+    <meta name="description" content="캐나다 밴쿠버에서 탄생한 스포츠웨어 브랜드 룰루레몬의 공식 온라인 매장입니다. 온라인 매장을 통해 룰루레몬의 편안하고 캐주얼한 스포츠웨어와 다양한 스포츠 액세서리를 만나보세요.">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="./scripts/script.js" defer></script>
+    <!-- CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!--플러그인 필수 css cdn 연결-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <!--플러그인 필수 JS cdn 연결-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <style>
+        /* sub_bg 숨기기 */
+        /* .sub_bg {display: none;} */
+        /* 언어선택 숨기기 */
+        header .header_container .lnb .lang .lang_select {display:none;}
+        /* 시리즈 숨기기 */
+        /* main .series .tab_gender_series .series_g.woman {display:none;} */
+        /* main .series .tab_gender_series .series_g.man {display:none;} */
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header_bnr">
+            <a href="#" class="header_bnr_txt">뉴스레터를 구독하고 새로운 소식을 받으세요</a>
+            <a href="#" class="bnr_close"><img src="./images/icon_close.svg" alt="닫기"></a>
+        </div>
+        <div class="header_container">
+            <h1 id="logo"><a href="#"><img src="./images/logo.png" alt="lululemon"></a></h1>
+            <nav>
+                <div class="sub_bg"></div>
+                <ul class="gnb">
+                    <li>
+                        <a href="#">WOMAN</a>
+                        <div class="sub_menu">
+                            <ul class="sub_left">
+                                <li><a href="#"><strong>신제품</strong></a></li>
+                                <li><a href="#">컬렉션</a></li>
+                                <li><a href="#">베스트셀러</a></li>
+                                <li><a href="#">세일</a></li>
+                                <li><a href="#"><span>기프트</span></a></li>
+                                <li><a href="#">전체보기</a></li>
+                            </ul>
+                            <ul class="sub_center">
+                                <li>
+                                    <a href="#" class="depth1">액티비티</a>
+                                    <ul class="depth2">
+                                        <li><a href="#">요가&필라테스</a></li>
+                                        <li><a href="#">러닝</a></li>
+                                        <li><a href="#">트레이닝</a></li>
+                                        <li><a href="#">테니스</a></li>
+                                        <li><a href="#">골프</a></li>
+                                        <li><a href="#">데일리웨어</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" class="depth1">상의</a>
+                                    <ul class="depth2">
+                                        <li><a href="#">아우터</a></li>
+                                        <li><a href="#">후디</a></li>
+                                        <li><a href="#">롱슬리브</a></li>
+                                        <li><a href="#">숏슬리브</a></li>
+                                        <li><a href="#">스포츠브라</a></li>
+                                        <li><a href="#">탱크</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" class="depth1">하의</a>
+                                    <ul class="depth2">
+                                        <li><a href="#">레깅스</a></li>
+                                        <li><a href="#">캐주얼 팬츠</a></li>
+                                        <li><a href="#">조거</a></li>
+                                        <li><a href="#">언더웨어</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" class="depth1">액세서리</a>
+                                    <ul class="depth2">
+                                        <li><a href="#">가방</a></li>
+                                        <li><a href="#">크로스바디백</a></li>
+                                        <li><a href="#">요가 소도구</a></li>
+                                        <li><a href="#">모자</a></li>
+                                        <li><a href="#">여성 양말</a></li>
+                                        <li><a href="#">헤어 액세서리</a></li>
+                                        <li><a href="#">장갑</a></li>
+                                    </ul>
+                                </li>
+                            </ul> <!-- e:sub_center -->
+                            <div class="sub_right">
+                                <a href="#"><img src="./images/sub_img_w1.jpg" alt="얼라인 시리즈"></a>
+                                <a href="#"><img src="./images/sub_img_w2.jpg" alt="Bend This 시리즈"></a>
+                            </div>
+                        </div> <!-- e:여성 sub_menu -->
+                    </li> <!-- 여성 -->
+                    <li>
+                        <a href="#">MAN</a>
+                        <div class="sub_menu">
+                            <ul class="sub_left">
+                                <li><a href="#"><strong>신제품</strong></a></li>
+                                <li><a href="#">컬렉션</a></li>
+                                <li><a href="#">베스트셀러</a></li>
+                                <li><a href="#">세일</a></li>
+                                <li><a href="#"><em>기프트</em></a></li>
+                                <li><a href="#">전체보기</a></li>
+                            </ul>
+                            <ul class="sub_center">
+                                <li>
+                                    <a href="#" class="depth1">액티비티</a>
+                                    <ul class="depth2">
+                                        <li><a href="#">러닝</a></li>
+                                        <li><a href="#">요가</a></li>
+                                        <li><a href="#">골프</a></li>
+                                        <li><a href="#">트레이닝</a></li>
+                                        <li><a href="#">수영</a></li>
+                                        <li><a href="#">테니스</a></li>
+                                        <li><a href="#">하이킹</a></li>
+                                        <li><a href="#">데일리웨어</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" class="depth1">상의</a>
+                                    <ul class="depth2">
+                                        <li><a href="#">아우터</a></li>
+                                        <li><a href="#">후디</a></li>
+                                        <li><a href="#">롱슬리브</a></li>
+                                        <li><a href="#">숏슬리브</a></li>
+                                        <li><a href="#">폴로셔츠</a></li>
+                                        <li><a href="#">셔츠</a></li>
+                                        <li><a href="#">탱크</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" class="depth1">하의</a>
+                                    <ul class="depth2">
+                                        <li><a href="#">팬츠</a></li>
+                                        <li><a href="#">조거</a></li>
+                                        <li><a href="#">타이츠</a></li>
+                                        <li><a href="#">쇼츠</a></li>
+                                        <li><a href="#">언더웨어</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" class="depth1">액세서리</a>
+                                    <ul class="depth2">
+                                        <li><a href="#">가방</a></li>
+                                        <li><a href="#">크로스바디백</a></li>
+                                        <li><a href="#">요가 소도구</a></li>
+                                        <li><a href="#">모자</a></li>
+                                        <li><a href="#">남성 양말</a></li>
+                                        <li><a href="#">장갑</a></li>
+                                    </ul>
+                                </li>
+                            </ul> <!-- e:sub_center -->
+                            <div class="sub_right">
+                                <a href="#"><img src="./images/sub_img_m1.jpg" alt="남성 데일리 웨어"></a>
+                                <a href="#"><img src="./images/sub_img_m2.jpg" alt="ABC 시리즈"></a>
+                            </div>
+                        </div> <!-- e:남성sub_menu -->
+                    </li> <!-- 남성 -->
+                    <li>
+                        <a href="#">ACCESSORY</a>
+                        <div class="sub_menu">
+                            <ul class="sub_left">
+                                <li><a href="#"><strong>신제품</strong></a></li>
+                                <li><a href="#">컬렉션</a></li>
+                                <li><a href="#">베스트셀러</a></li>
+                                <li><a href="#">세일</a></li>
+                                <li><a href="#"><span>기프트</span></a></li>
+                                <li><a href="#">전체보기</a></li>
+                            </ul>
+                            <ul class="sub_center">
+                                <li>
+                                    <a href="#" class="depth1">가방</a>
+                                    <ul class="depth2">
+                                        <li><a href="#">백팩</a></li>
+                                        <li><a href="#">크로스바디백</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" class="depth1">여성</a>
+                                    <ul class="depth2">
+                                        <li><a href="#">여성 양말</a></li>
+                                        <li><a href="#">헤어 액세서리</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" class="depth1">남성</a>
+                                    <ul class="depth2">
+                                        <li><a href="#">남성 양말</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" class="depth1">기타</a>
+                                    <ul class="depth2">
+                                        <li><a href="#">모자</a></li>
+                                        <li><a href="#">요가 소도구</a></li>
+                                        <li><a href="#">워터보틀</a></li>
+                                        <li><a href="#">장갑</a></li>
+                                    </ul>
+                                </li>
+                            </ul> <!-- e:sub_center -->
+                            <div class="sub_right">
+                                <a href="#"><img src="./images/sub_img_ac1.jpg" alt="뉴 페런트 백팩 17L"></a>
+                                <a href="#"><img src="./images/sub_img_ac2.jpg" alt="우먼스 볼러 햇 소프트"></a>
+                            </div>
+                        </div> <!-- e:액세서리 sub_menu -->
+                    </li> <!-- 액세서리 -->
+                    <li>
+                        <a href="#">COMMUNITY</a>
+                        <div class="sub_menu">
+                            <ul class="community_g">
+                                <li><a href="#">공지사항</a></li>
+                                <li><a href="#">문의하기</a></li>
+                                <li><a href="#">이벤트</a></li>
+                                <li><a href="#">브랜드 스토리</a></li>
+                                <li><a href="#">지속가능성</a></li>
+                                <li><a href="#">사회공헌프로젝트</a></li>
+                            </ul>
+                            <ul class="community_g">
+                                <li><a href="#">사이즈가이드</a></li>
+                                <li><a href="#">기프트 카드</a></li>
+                                <li><a href="#">수선 안내</a></li>
+                            </ul>
+                            <ul class="community_g">
+                                <li><a href="#">시리즈</a></li>
+                                <li><a href="#">얼라인</a></li>
+                                <li><a href="#">룰루</a></li>
+                                <li><a href="#">메탈 벤트 테크</a></li>
+                                <li><a href="#">Bend This</a></li>
+                                <li><a href="#">ABC</a></li>
+                            </ul>
+                            <div class="sub_right">
+                                <img src="./images/sub_img_co.jpg" alt="룰루레몬 커뮤니티">
+                            </div>
+                        </div> <!-- e:액세서리 sub_menu -->
+                    </li> <!-- 액세서리 -->
+                </ul> <!-- e:gnb -->
+            </nav> <!-- e:nav -->
+            <div class="lnb">
+                <a href="#" class="search"><img src="./images/icon_search.svg" alt="검색"></a>
+                <a href="#" class="offstore"><img src="./images/icon_off_store.svg" alt="오프라인 매장 찾기"></a>
+                <a href="#" class="my"><img src="./images/icon_user.svg" alt="마이메뉴"></a>
+                <a href="#" class="cart"><img src="./images/icon_cart.svg" alt="장바구니"></a>
+                <div class="lang">
+                    <a href="#"><span>KR /</span><em>&#8361;</em></a>
+                    <div class="lang_select">
+                        <a href="#">Korea (KRW)</a>
+                        <a href="#">Canada (CAD)</a>
+                        <a href="#">Europe (EUR)</a>
+                        <a href="#">Japan (JPY)</a>
+                        <a href="#">U.S (USD)</a>
+                    </div>
+                </div>
+            </div> <!-- e:lnb -->
+        </div> <!-- e:header_container -->
+    </header>
+</body>
+</html>
